@@ -7,7 +7,7 @@
  */
 
 import 'package:flutter/widgets.dart';
-import 'package:flutter_app_battery/res/YcColors.dart';
+import 'package:remind/res/YcColors.dart';
 
 
 /*

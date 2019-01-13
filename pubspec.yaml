@@ -1,4 +1,4 @@
-name: reminder
+name: remind
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -8,30 +8,29 @@ description: A new Flutter application.
 # build by specifying --build-name and --build-number, respectively.
 # Read more about versioning at semver.org.
 version: 1.0.0+1
-author: zhuxingchong
+
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  path_provider: ^0.4.1
-  dio: ^1.0.13
-  cookie_jar: ^0.0.7
-
-  http: '>=0.11.3+12'
-  flutter_webview_plugin: "^0.3.0+2"
-  shared_preferences: "^0.4.1"
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  # 添加依赖的包
+  http: '>=0.11.3+12'
+  flutter_webview_plugin: "^0.3.0+2"
+  shared_preferences: "^0.4.1"
+  path_provider: 0.4.1
+  html: '>=0.13.3+3'
+  flutter_html: ^0.8.2
+  flutter_inappbrowser: 0.5.51
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
@@ -42,7 +41,15 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+     - lib/image/edit_delete.png
+     - lib/image/edit_remind.png
+     - lib/image/edit_save.png
+     - lib/image/home_full.png
+     - lib/image/home_line.png
+     - lib/image/home_remind.png
+     - lib/ic_select_city_down_press.png
+     - lib/ic_select_city_down.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

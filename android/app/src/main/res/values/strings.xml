@@ -1,0 +1,185 @@
+<resources>
+
+    <string name="app_name">Reminding</string>
+    <string name="action_settings">Settings</string>
+    <string name="startlocation">start location</string>
+    <string name="stoplocation">finish location</string>
+    <string name="loading">loading...</string>
+    <string name="subway">metro</string>
+    <string name="select_city">Switch City</string>
+    <string name="full_subway">Global graph</string>
+    <string name="scal_btn">Enlarge</string>
+    <string name="full_subway_title">All routes</string>
+    <string name="line_title">Lines</string>
+    <string name="remind_title">Reminding</string>
+    <string name="city_title">City</string>
+    <string name="narrow_btn">Lessen</string>
+    <string name="cancle_btn">Cancel</string>
+    <string name="save_btn">Save</string>
+    <string name="start">Setup start</string>
+    <string name="end">Setup end</string>
+    <string name="transfer_hint">Transfer line:</string>
+    <string name="station_exit">Platform exit:</string>
+    <string name="arrived">Arrive destination</string>
+    <string name="arrived_reminder">Arrival reminding</string>
+    <string name="please_set_target">Please set the target site.</string>
+    <string name="please_set_permission">Please set permissions.</string>
+    <string name="select_line_title">Location Result</string>
+    <string name="location_line_select">Nearest platform:</string>
+    <string name="select_line_info">Selection line</string>
+    <string name="change_number">Transfer%ssecond</string>
+    <string name="change_next_line">Transfer%sLine number</string>
+    <string name="station_number">%sstations</string>
+    <string name="start_station">Starting：</string>
+    <string name="end_station">Ending：</string>
+    <string name="location_errot">Please check whether the network or GPS location is open.！</string>
+    <string name="search_history">Search history</string>
+    <string name="current_location">My position</string>
+    <string name="collection_line">Collection</string>
+    <string name="set_remind">SetUp reminder</string>
+    <string name="falvetor">Collection folder</string>
+    <string name="cancle_remind">Cancel reminder</string>
+    <string name="current_station">Current station:</string>
+    <string name="surples_station">remain%sstations</string>
+    <string name="changet_hint_tile">Transfer reminding</string>
+    <string name="arrive_station_title">Arrival reminding</string>
+    <string name="arrive">Arrive</string>
+    <string name="change">Transfer</string>
+    <string name="hint_arrive_end_station">You have arrived at the terminal.</string>
+    <string name="direction">Direction</string>
+    <string name="change_station_hint">Please in%sstation transfer</string>
+    <string name="line_background_hint">Arrival reminding</string>
+    <string name="set_remind_hint">Please set up reminder route.</string>
+    <string name="colloction_catalog">Collection list</string>
+    <string name="select_remind_line">Please choose reminder route.</string>
+    <string name="colloction_catalog_empty">The collection list is empty.</string>
+    <string name="please_select_colloction_line">Please choose the collection route.</string>
+    <string name="next_station">Next Station:</string>
+    <string name="search_loading">search...</string>
+
+    <string name="description_direction_right">Slide to the right to close the reminder.</string>
+    <string name="description_direction_left" >Sliding to the left can stop alerting</string>
+    <string name="description_direction_both">Slide to the left, suspend, slide to the right, close.</string>
+    <string name="alarm_alert_snoozed_text">Careful transfer</string>
+    <string name="alarm_alert_off_text" >Arrived take care. Get off.</string>
+    <string name="stop_hint">End reminder again!</string>
+    <string name="search_hint">Start|End</string>
+    <string name="search_result_empty">search result empty</string>
+    <string name="input_city_name_or_pingyin">input city name or pingying</string>
+    <string name="sorry_no_search_city">Sorry no search city</string>
+    <string name="location">Location</string>
+    <string name="hot">Hot</string>
+    <string name="all">All</string>
+    <string name="is_location">Locationing</string>
+    <string name="now_location_city">Current location</string>
+    <string name="not_location_city">Location fail,please select</string>
+    <string name="select_again">Select again</string>
+    <string name="hot_city">Hot city</string>
+    <string name="nearst">Nearst</string>
+    <string name="background_location">Background Location</string>
+    <string name="please_open_location">please keep gps and connect network</string>
+    <string name="hint_open_network_gps">please keep gps and connect network</string>
+
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+
+    <string name="event_startLocationLine">开始定位路线</string>
+    <string name="event_arrived">到站</string>
+    <string name="event_saveLine">收藏路线</string>
+    <string name="event_changeStation">换乘</string>
+    <string name="event_city">城市</string>
+    <string name="event_start_station_and_end_station">查询</string>
+    <string name="event_cancleLocationLine">取消定位路线</string>
+    <string name="event_moveTaskToBack">移动到后台定位	</string>
+    <string name="app_ok">确定</string>
+    <string name="set_up_immediately">立刻设置</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_share">分享</string>
+
+
+    <string name="send">发送到微信</string>
+    <string name="receive">从微信接收</string>
+
+    <string name="is_timeline">是否分享到朋友圈</string>
+    <string name="send_text">发送文本</string>
+    <string name="send_text_default">这段文字发送自微信SDK示例程序</string>
+
+    <string name="send_img">发送图片</string>
+    <string-array name="send_img_item">
+        <item>发送图片的二进制数据</item>
+        <item>发送图片的本地路径</item>
+        <!-- <item>发送图片的URL</item> -->
+    </string-array>
+    <string name="send_img_file_not_exist">文件不存在</string>
+
+    <string name="send_pic">发送照片</string>
+
+    <string name="send_music">发送音乐</string>
+    <string-array name="send_music_item">
+        <item>发送音乐url</item>
+        <item>发送低带宽音乐url</item>
+    </string-array>
+
+    <string name="send_video">发送视频</string>
+    <string-array name="send_video_item">
+        <item>发送视频url</item>
+        <item>发送低带宽视频url</item>
+    </string-array>
+
+    <string name="send_webpage">发送网页</string>
+    <string-array name="send_webpage_item">
+        <item>发送网页url</item>
+    </string-array>
+    <string name="send_appbrand">发送小程序</string>
+    <string-array name="send_appbrand_item">
+        <item>发送小程序</item>
+    </string-array>
+    <string name="send_appdata">发送app消息</string>
+    <string-array name="send_appdata_item">
+        <item>发送app文件本地路径</item>
+        <item>发送app二进制数据</item>
+        <item>发送无附件的app</item>
+    </string-array>
+
+    <string name="send_emoji">发送表情消息</string>
+    <string-array name="send_emoji_item">
+        <item>发送表情本地路径</item>
+        <item>发送表情二进制数据</item>
+    </string-array>
+
+    <string-array name="send_emoji_item_format">
+        <item>发送GIF图片</item>
+        <item>发送非GIF图片</item>
+    </string-array>
+    <!--城市-->
+    <!--<string name="beijing">131</string>
+    <string name="shanghai">289</string>
+    <string name="guangzhou">257</string>
+    <string name="shenzhen">340</string>
+    <string name="xianggang">2912</string>
+    <string name="chengdu">75</string>
+    <string name="changchun">53</string>
+    <string name="chongqing">132</string>
+    <string name="dalian">167</string>
+    <string name="foshang">138</string>
+    <string name="hangzhou">179</string>
+    <string name="kunming">104</string>
+    <string name="nanjing">315</string>
+    <string name="shenyang">58</string>
+    <string name="suzhou">224</string>
+    <string name="tianjin">332</string>
+    <string name="wuhan">218</string>
+    <string name="xian">233</string>
+    <string name="haerbin">48</string>
+    <string name="zhengzhou">268</string>
+    <string name="changsha">158</string>
+    <string name="ningbo">180</string>
+    <string name="wuxi">317</string>
+    <string name="taibei">9002</string>
+    <string name="gaoxiong">9019</string>
+    <string name="qingdao">236</string>
+    <string name="nanchang">163</string>
+    <string name="fuzhou">300</string>
+    <string name="dongguan">119</string>
+    <string name="nanning">261</string>-->
+    <!--城市-->
+</resources>
